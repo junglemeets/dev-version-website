@@ -477,7 +477,7 @@ li {
 /*-- Main slide --*/
 
 #main-slide .item {
-    height: 700px;
+    height: 950px;
 }
 
 #main-slide .item img{
@@ -727,7 +727,7 @@ li {
 	}
     
     #main-slide .item {
-        height: 180px;
+        height: 280px;
     }
     
 }
