@@ -183,12 +183,12 @@ $(document).ready(function() {
 
 
 
-$ ( function () {
+/*$ ( function () {
 
 	$(".video").fitVids();
 	
 });
-
+*/
 
 
 
@@ -196,10 +196,10 @@ $ ( function () {
         // Tab------------------------------
 
 
-$('#team a').click(function (e) {
+/*$('#team a').click(function (e) {
   e.preventDefault()
   $(this).tab('show')
-})
+})*/
 
 
 
