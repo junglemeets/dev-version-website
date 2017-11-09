@@ -150,11 +150,11 @@ fieldset[disabled] .btn-xl.active {
     background: #5BB12F;
 }
 
-.no-touch .feature:hover i,
-	.no-touch .feature:active i,
-	.no-touch .feature:focus i {
+.feature:hover i,
+.feature:active i,
+.feature:focus i {
         
-        box-shadow: 0 0 0 0 #5BB12F;
+        box-shadow: 0 0 0 0 #5BB12F ;
 }
 
 .feature-2 i {

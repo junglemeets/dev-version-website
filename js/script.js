@@ -75,7 +75,10 @@ $('.navbar-collapse ul li a').click(function () {
                 },{accY: -100});
             
         
-
+$('#main-slide').carousel({
+  interval: 4000,
+  pause: null
+})
 
 
 ////------- Testimonials Carousel
@@ -162,14 +165,14 @@ $(document).ready(function() {
 
 ////------- Partner/CLients
 
-/*$(document).ready(function() {
+$(document).ready(function() {
  
   $(".clients").owlCarousel({
         pagination: false,
         navigation : true,
         slideSpeed : 2500,
 		stopOnHover: true,
-    	autoPlay: 3000,
+    	autoPlay: 1500,
     	singleItem:false,
         itemsMobile : [550,1],
         itemsDesktopSmall : [991,2],
@@ -179,7 +182,7 @@ $(document).ready(function() {
   });
  
 });
-*/
+
 
 
 

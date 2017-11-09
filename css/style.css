@@ -126,6 +126,9 @@ li {
 .navbar-default .navbar-collapse {
     border-color: rgba(255,255,255,.02);
 }
+/*.navbar-default{
+	 background-color: #222;
+}*/
 
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
@@ -477,7 +480,7 @@ li {
 /*-- Main slide --*/
 
 #main-slide .item {
-    height: 950px;
+    height: auto !important;
 }
 
 #main-slide .item img{
@@ -640,18 +643,18 @@ li {
 
 /*-- Animation --*/
 .carousel .item.active .animated1 {
-	-webkit-animation: lightSpeedIn 1s ease-in 800ms both;
-	animation: lightSpeedIn 1s ease-in 800ms both;
+	-webkit-animation: zoomIn 1s ease-in 200ms both;
+	animation: zoomIn 1s ease-in 200ms both;
 }
 
 .carousel .item.active .animated2 {
-	-webkit-animation: bounceIn 1s ease-in 800ms both;
-	animation: bounceIn 1s ease-in 800ms both;
+	-webkit-animation: bounceIn 1s ease-in 300ms both;
+	animation: bounceIn 1s ease-in 300ms both;
 }
 
 .carousel .item.active .animated3 {
-	-webkit-animation: flipInX 2s ease-in-out 800ms both;
-	animation: flipInX 2s ease-in-out 800ms both;
+	-webkit-animation: flipInX 2s ease-in-out 400ms both;
+	animation: flipInX 2s ease-in-out 400ms both;
 }
 
 
@@ -683,7 +686,7 @@ li {
 	}
     
     #main-slide .item {
-        height: 550px;
+        height: auto !important
     }
     
 }
@@ -714,7 +717,7 @@ li {
 	}
     
     #main-slide .item {
-        height: 400px;
+        height: auto !important;
     }
     
 }
@@ -727,7 +730,7 @@ li {
 	}
     
     #main-slide .item {
-        height: 280px;
+        height: auto !important;
     }
     
 }
@@ -801,9 +804,9 @@ li {
 	-o-transition: box-shadow .6s ease-in-out;
 	transition: box-shadow .6s ease-in-out;
 }
-.no-touch .feature:hover i,
-	.no-touch .feature:active i,
-	.no-touch .feature:focus i {		
+.feature:hover i,
+.feature:active i,
+.feature:focus i {		
 		
 		-webkit-transition: box-shadow .4s ease-in-out;
 		-moz-transition: box-shadow .4s ease-in-out;
@@ -1581,7 +1584,8 @@ footer.style-1 .footer-link li {
 
 
 .call-to-action {
-    background: url(../images/parallax/call-to.jpg);
+	margin: 5px 0 0 0;
+    background: url(../images/pic_13.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 90%;
@@ -2002,3 +2006,26 @@ iframe {
 }
 
 
+.main-heading .heading-top{
+	margin: 25px 25px;
+	text-transform: capitalize;
+	text-align: center;
+	font-size: 30px;
+}
+
+@media (min-width : 1440px) {
+    #main-slide .item {
+        height: 950px !important
+    }
+
+}
+
+.call-to-action .main-content{
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+
+#partner .clients:hover{
+	cursor: all-scroll;
+}
