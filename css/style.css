@@ -743,7 +743,7 @@ li {
 
 
 .services-section {
-    padding-top: 80px;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 .feature-section {
@@ -1339,12 +1339,11 @@ and (min-width : 551px){
 
 #partner {
     padding-top: 80px;
-    padding-bottom: 50px;
     text-align: center !important;
 }
 
 .clients .owl-buttons {
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 .owl-theme .owl-controls .owl-buttons div {
@@ -2029,3 +2028,7 @@ iframe {
 #partner .clients:hover{
 	cursor: all-scroll;
 }
+.sprite { background: url('../images/icons/png/sprite.png') no-repeat top left; width: 128px; height: 128px;  } 
+.sprite.signs { background-position: 0 0; } 
+.sprite.time { background-position: 0 -133px; } 
+.sprite.trees { background-position: 0 -266px; } 
