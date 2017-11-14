@@ -169,22 +169,23 @@ $(document).ready(function() {
  
   $(".clients").owlCarousel({
         pagination: false,
-        navigation : true,
+        navigation : false,
         slideSpeed : 2500,
 		stopOnHover: true,
     	autoPlay: 1500,
     	singleItem:false,
-        itemsMobile : [550,1],
+        itemsMobile : [550,3],
         itemsDesktopSmall : [991,2],
         items: 5,
 		transitionStyle : "fade",
-		navigationText: ['<i class="fa fa-chevron-left"></i>','<i class="fa fa-chevron-right"></i>']
+/*		navigationText: ['<i class="fa fa-chevron-left"></i>','<i class="fa fa-chevron-right"></i>']*/
   });
  
 });
 
 
-
+/*        itemsMobile : [550,1],
+        itemsDesktopSmall : [991,2],*/
 
 /*$ ( function () {
 
