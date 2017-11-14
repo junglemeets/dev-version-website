@@ -1247,7 +1247,7 @@ and (min-width : 551px){
 /*************** Testimonials ***************/
 
 .testimonial-section {
-    background: Url(../images/parallax/testimonial-bg.jpg) no-repeat;
+    background: url(../images/parallax/testimonial-bg.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -1339,7 +1339,7 @@ and (min-width : 551px){
 
 #partner {
     padding-top: 80px;
-    text-align: center !important;
+    margin-bottom: 20px;
 }
 
 .clients .owl-buttons {
@@ -2028,7 +2028,16 @@ iframe {
 #partner .clients:hover{
 	cursor: all-scroll;
 }
-.sprite { background: url('../images/icons/png/sprite.png') no-repeat top left; width: 128px; height: 128px;  } 
-.sprite.signs { background-position: 0 0; } 
-.sprite.time { background-position: 0 -133px; } 
-.sprite.trees { background-position: 0 -266px; } 
+
+.camp-features{
+	margin: 5px 0 0 35px;
+}
+
+.sprite { background: url('../images/services/sprite1.png') no-repeat top left; width: 64px; height: 64px;  } 
+.sprite.camping { background-position: 0 0; } 
+.sprite.corporate { background-position: 0 -74px; } 
+.sprite.offroad { background-position: 0 -148px; } 
+.sprite.road { background-position: 0 -222px; } 
+.sprite.school { background-position: 0 -296px; } 
+.sprite.tribal1 { background-position: 0 -370px; } 
+
